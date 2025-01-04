@@ -1,0 +1,20 @@
+<cách chạy Stringboot project trên cmd/>
+---
+b1: mở file project định triển khai, gõ cmd trên thanh địa chỉ trong file đó
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>
+b2: gõ dir
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>dir
+b3: gõ dir target
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>dir target
+b4: gõ mvnw package
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>mvnw package
+b5: gõ dir target
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>dir target
+b6: copy springboot-demo-0.0.1-SNAPSHOT.jar
+b7: gõ java -jar target/<paste đoạn vừa copy ở b6)
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>java -jar target/springboot-demo-0.0.1-SNAPSHOT.jar
+-> enter các bước (trừ b6) thì nó sẽ chạy
+<> nếu muốn ngừng chương trình chạy thì nhấn tổ hợp phím Ctrl + C
+<> nếu muốn chương trình chạy lại thì gõ mvnw spring-boot:run rồi enter
+	//Đoạn này đang sai, cần sửa
+	D:\Documents\CongNghePhatTrienPhanMemMoi\thucHanh\buoi1-springboot-demo>mvnw spring-boot:run
